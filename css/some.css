@@ -1,5 +1,6 @@
 :root {
     --ritsi-red: #4281ff; /* azul oscuro */
+    --color-rojo: #ff4242;
 }
 
 * {
@@ -59,7 +60,7 @@ input[type=text]:focus {
 }
 
 .progress-bar-danger {
-    --bs-progress-bar-bg: var(--ritsi-red);
+    --bs-progress-bar-bg: var(--color-rojo);
 }
 
 .progress-bar-warning {
@@ -75,7 +76,7 @@ input[type=text]:focus {
 }
 
 .color-danger {
-    color: var(--ritsi-red);
+    color: var(--color-rojo);
 }
 
 .color-warning {
